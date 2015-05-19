@@ -1,2 +1,25 @@
 /* Globals.scss */
 
+@mixin headline-font {
+    font-family: "ltc-bodoni-175",serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin body-font {
+    font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@mixin body-font-italic {
+    font-family: "futura-pt",sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@mixin body-font-bold {
+    font-family: "futura-pt",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}

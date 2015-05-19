@@ -7,3 +7,19 @@ img {
 main {
     background-color: #70DBDB;
 }
+
+body {
+    @include body-font;
+}
+
+h1, h2, h3 {
+    @include headline-font;
+}
+
+i {
+    @include body-font-italic;
+}
+
+b {
+    @include body-font-bold;
+}
